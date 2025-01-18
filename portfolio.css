@@ -24,15 +24,16 @@ html {
 
 #navbar {
     grid-area: navbar;
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+    
 }
 
 #c1 {
     grid-area: c1;
     background-color: white;
+    padding-bottom: auto;
 }
 
 .text {
@@ -42,8 +43,9 @@ html {
     font-weight: 400;
     border-right: 0.15em solid;
     white-space: nowrap;
-    animation: typing 2.5s steps(22, end) infinite;
+    animation: typing 2.5s steps(14, end) infinite;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
 }
 
 @keyframes typing {
@@ -51,7 +53,7 @@ html {
         width: 0;
     }
     to {
-        width: 170%;
+        width: 105%;
     }
 }
 
@@ -72,4 +74,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.bar{
+    color:purple
 }
