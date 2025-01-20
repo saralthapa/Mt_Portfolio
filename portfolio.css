@@ -14,8 +14,8 @@ html {
     display: grid;
     grid-template-areas: 
         "navbar navbar navbar navbar navbar navbar navbar navbar"
-        "c1 c1 c2 c2 c2 c2 c2 c2"
-        "c1 c1 c2 c2 c2 c2 c2 c2"
+        "c1 c1 c1 c1 c2 c2 c2 c2"
+        "c1 c1 c1 c1 c2 c2 c2 c2"
         "c3 c3 c3 c3 c3 c3 c3 c3"
         "footer footer footer footer footer footer footer footer";
     grid-template-rows: 80px 1fr 1fr 1fr 50px; /* Define heights for rows */
@@ -62,18 +62,18 @@ html {
 
 #c2 {
     grid-area: c2;
-    background-color: lightgreen;
     margin-left: 0; /* Removed unnecessary margin */
 }
 
 #c3 {
     grid-area: c3;
-    background-color: lightgoldenrodyellow;
+    padding-left: 550px;
+    padding-right: 545px;
+
 }
 
 #footer {
     grid-area: footer;
-    background-color: burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,4 +89,8 @@ html {
 }
 .text1{
     color:blue
+}
+.form{
+    border-radius: 20px;
+    border:5px solid black
 }
